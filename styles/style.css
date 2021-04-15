@@ -14,7 +14,7 @@
 h1 {
    font-family: "pragmatica", sans-serif;
    text-align: center;
-   font-size: 50px;
+   font-size: 75px;
 }
 
 h2 {
@@ -25,6 +25,7 @@ h2 {
 
 h3 {
    font-family: "pragmatica", sans-serif;
+   font-size: 25px;
 }
 
 h4 {
@@ -46,16 +47,14 @@ section{
 .mission-statement,
 .food-insecurity,
 .end-child-hunger-campaign,
-.food-banks,
-.volunteer {
+.food-banks {
    width: 100%;
    padding: 100px 200px;
    
 }
 
 .mission-statement,
-.end-child-hunger-campaign,
-.volunteer {
+.end-child-hunger-campaign {
    background: #4F6F19;
 }
 
@@ -159,7 +158,7 @@ nav a:hover {
 
 
 .hero {
-   background-image: url("https://i.pinimg.com/originals/b5/12/2d/b5122d67268e6af828c9b204319e9986.png");
+   background-image: url(/images/table.png) ;
    width: 100%;
    height: 100vh;
    background-size: cover;
@@ -167,16 +166,14 @@ nav a:hover {
 
  .text-block {
    background-color: rgb(0,0,0); /* Fallback color */
-   background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
-   color: white;
-   font-weight: bold;
-   border: 3px solid #e89427;
+   background-color: rgba(0,0,0, 0.6); /* Black w/opacity/see-through */
+   color: #F8971C;
    position: absolute;
-   top: 50%;
+   top: 70%;
    left: 50%;
    transform: translate(-50%, -50%);
    z-index: 2;
-   width: 80%;
+   width: 100%;
    padding: 20px;
    text-align: center;
  }
@@ -195,7 +192,7 @@ nav a:hover {
 
    .logo {
       grid-column: 2/3;
-      width: 60px;
+      width: 100px;
    }
    
    nav {
@@ -315,6 +312,7 @@ img {
    gap: 10px;
    column-gap: 50px;
    row-gap: 10px;
+   
 }
 
    /**End of food-insecurity**/
@@ -416,16 +414,7 @@ button a:visited {
 
 /**End of food-banks**/
 
-/** Form/volunteer **/
-
-.volunteer {
-   width: 100%;
-   color: white;
-}
-
-.volunteerh1 {
-   
-}
+/** Form **/
 
 form {
    margin: 0 auto;
@@ -476,27 +465,20 @@ input:focus, textarea:focus {
    outline: none;
    border-radius: 25px;
    border: none;
-   background-color: #FCCB06;
+   color: white;
+   background-color: #D49D42;
 }
 
-.submit-button: hover {
-   background: cyan;
-}
-
-.volunteers {
-   width: 100%;
-}
-
-/** End of Form/volunteer **/
+/** End of Form **/
 
 /** Footer **/
 
 .facebook {
-   color: black;
+   color: white;
 }
 
 svg {
-   fill: black;
+   fill: white;
    cursor: pointer;
 }
 
@@ -504,15 +486,14 @@ footer {
    width: 100%;
    padding: 40px 0;
    text-align: center;
-   color: black;
+   color: white;
    background-color: #e89427;
    object-position: center;
-   background: white;
-   width: 100%;
+   background: #4F6F19;
 }
 
 footer a:link {
-   color: black;
+   color: white;
    text-decoration: none;
    cursor: pointer;
 }
