@@ -253,8 +253,7 @@ img {
 
 .box{
    padding: 10px;
-   position: relative; /*you need to set the .box position to relative, not the container. the overlay is in the box class*/
-   
+   position: relative; 
 }
 
 .box2 {
