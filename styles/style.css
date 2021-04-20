@@ -260,6 +260,9 @@ img {
    width: 100%;
 }
 
+
+
+
 @media screen and (max-width: 800px){
    .wrapper {
       grid-template-columns: 1fr;
@@ -298,80 +301,79 @@ img {
    color: white;
    text-align: center;  
 }
+
 /**End of Mission Statement**/
 
 /**food insecurity**/
 
-.food-insecurity-wrapper{
-   
-   margin: 0 auto;
-   padding: 100px 300px;
-   display: grid;
-   grid-template-columns: 1fr 1fr;
-   gap: 10px;
-   column-gap: 50px;
-   row-gap: 10px;
-   
+.text {
+   padding: 15px;
+   color: white;
 }
 
-   /**End of food-insecurity**/
+.image {
+margin: 0 0 -3.5px 0;
+}
 
-/** Project/Overlay **/
+.food-insecurity-wrapper{
+   margin: 10px auto;
+   width: 80%;
+   display: flex;
+   background: #10170F;
+}
+
+.insecurity-submit-button{
+   background-color: #D49D42;
+   border: none;
+   color: white;
+   padding: 12px 18px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin: 15px 2px;
+   cursor: pointer;
+   border-radius: 25px;
+}
+
+/**End of food-insecurity**/
+
+
+/** end of end-child-hunger **/
 
 .end-child-hunger-campaign {
    color: white;
 }
 
+.end-wrapper{
+   padding: 15px;
+   margin: 10px auto;
+   width: 64.5%;
+   display: flex;
+   background: #D19845;
+   column-gap: 15pt;
+}
+
 .container {
    position: relative;
  }
- 
- .overlay-image {
-   display: block;
-   width: 100%;
-   height: auto;
- }
- 
- .overlay {
-   opacity: 85%;
-   position: absolute;
-   bottom: 0;
-   left: 0;
-   right: 0;
-   background-color: #E9FCFF;
-   overflow: hidden;
-   width: 100%;
-   height: 0;
-   transition: .5s ease;
- }
- 
- .box:hover .overlay { /*Changed this from .container to box. Again, it's the .box class that has the hover, not the container*/
-   height: 50%;
- }
- 
- .overlay-text {
-   color: black;
-   font-size: 12px;
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   -webkit-transform: translate(-50%, -50%);
-   -ms-transform: translate(-50%, -50%);
-   transform: translate(-50%, -50%);
-   text-align: center;
- }
 
- .button {
-   background-color: #FCCB06;
+ .end-button {
+   background-color: #D49D42;
    border: none;
-   color: black;
-   padding: 15px 32px;
+   color: white;
+   padding: 12px 18px;
    text-align: center;
    text-decoration: none;
    display: inline-block;
    font-size: 16px;
-   margin: 4px 2px;
+   margin: 15px 2px;
    cursor: pointer;
+   border-radius: 25px;
+ }
+
+ .button-wrapper{
+   
  }
 
  button a:link {
@@ -392,7 +394,7 @@ button a:visited {
    cursor: pointer;
 }
 
-/** End of end-child-hunger-campaign/overlay **/
+/** End of end-child-hunger-campaign**/
 
 /**food-banks**/
 
@@ -401,14 +403,16 @@ button a:visited {
    position: center;
    }
 
+
 .food-banks-wrapper{
    width: 100%;
-   margin: 0 auto;
+   margin: 10px auto;
    display: grid;
    grid-template-columns: 1fr 1fr 1fr;
    gap: 0px;
    column-gap: 50px;
    row-gap: 10px;
+   
 }
 
 /**End of food-banks**/
