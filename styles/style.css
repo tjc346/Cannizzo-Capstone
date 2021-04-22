@@ -312,7 +312,7 @@ img {
 }
 
 .image {
-margin: 0 0 -3.5px 0;
+margin: 0 0 -6px 0;
 }
 
 .food-insecurity-wrapper{
@@ -415,6 +415,10 @@ button a:visited {
    
 }
 
+.map {
+   padding: 30px;
+}
+
 /**End of food-banks**/
 
 /** Form **/
@@ -422,9 +426,9 @@ button a:visited {
 form {
    margin: 0 auto;
    color: black;
-   width: 700px;
-   background: white;
-   padding: 35px;
+   width: 616px;
+   background: #4F6F19;
+   padding: 30px;
    
 }
 
@@ -440,8 +444,8 @@ textarea {
 input, textarea {
    outline: none;
    border: none;
-   border-bottom: 1px dashed #ddd;
-   border-right: 1px dashed #ddd;
+   border-bottom: 0px dashed #ddd;
+   border-right: 0px dashed #ddd;
    margin: 10px;
    font-size: .7em;
 }
