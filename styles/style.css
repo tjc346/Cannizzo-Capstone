@@ -20,12 +20,12 @@ h1 {
 h2 {
    text-align: center;
    font-family: "pragmatica", sans-serif;
-   font-size: 35px;
+   font-size: 55px;
 }
 
 h3 {
    font-family: "pragmatica", sans-serif;
-   font-size: 25px;
+   font-size: 30px;
 }
 
 h4 {
@@ -169,11 +169,11 @@ nav a:hover {
    background-color: rgba(0,0,0, 0.6); /* Black w/opacity/see-through */
    color: #F8971C;
    position: absolute;
-   top: 70%;
-   left: 50%;
+   top: 50%;
+   left: 20%;
    transform: translate(-50%, -50%);
    z-index: 2;
-   width: 100%;
+   width: 45%;
    padding: 20px;
    text-align: center;
  }
@@ -235,6 +235,11 @@ nav a:hover {
       transform: scale(1,1);
    }
    
+}
+
+.hero-logo {   
+   max-height: 300px;
+
 }
 
 /** Media Queries **/
@@ -319,7 +324,7 @@ margin: 0 0 -6px 0;
    margin: 10px auto;
    width: 80%;
    display: flex;
-   background: #10170F;
+   background: #4F6F19;
 }
 
 .insecurity-submit-button{
@@ -339,7 +344,7 @@ margin: 0 0 -6px 0;
 /**End of food-insecurity**/
 
 
-/** end of end-child-hunger **/
+/** end-child-hunger **/
 
 .end-child-hunger-campaign {
    color: white;
@@ -348,10 +353,15 @@ margin: 0 0 -6px 0;
 .end-wrapper{
    padding: 15px;
    margin: 10px auto;
-   width: 64.5%;
+   width: 85%;
    display: flex;
-   background: #D19845;
+   background: white;
    column-gap: 15pt;
+}
+
+.end-image {
+   max-height: 800px;
+   max-width: 400px;
 }
 
 .container {
@@ -367,14 +377,12 @@ margin: 0 0 -6px 0;
    text-decoration: none;
    display: inline-block;
    font-size: 16px;
-   margin: 15px 2px;
+   margin: 15px 150px;
    cursor: pointer;
    border-radius: 25px;
  }
 
- .button-wrapper{
-   
- }
+
 
  button a:link {
    color: #fff;
@@ -425,10 +433,10 @@ button a:visited {
 
 form {
    margin: 0 auto;
-   color: black;
+   color: white;
    width: 616px;
    background: #4F6F19;
-   padding: 30px;
+   padding: 25px;
    
 }
 
@@ -467,7 +475,7 @@ input:focus, textarea:focus {
 .submit-button {
    cursor: pointer;
    display: block;
-   padding: 5px 15px;
+   padding: 10px 15px;
    margin: 20px auto;
    outline: none;
    border-radius: 25px;
