@@ -312,8 +312,12 @@ img {
 /**food insecurity**/
 
 .text {
-   padding: 15px;
+   padding: 15px 35px;
    color: white;
+}
+
+.text p {
+   line-height: 1.5em;
 }
 
 .image {
