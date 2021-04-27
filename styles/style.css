@@ -173,8 +173,8 @@ nav a:hover {
    left: 20%;
    transform: translate(-50%, -50%);
    z-index: 2;
-   width: 45%;
-   padding: 20px;
+   width: 40%;
+   padding: 0px;
    text-align: center;
  }
 
@@ -317,11 +317,11 @@ img {
 }
 
 .image {
-margin: 0 0 -6px 0;
+margin: 0 0 -3px 0;
 }
 
 .food-insecurity-wrapper{
-   margin: 10px auto;
+   margin: 20px auto;
    width: 80%;
    display: flex;
    background: #4F6F19;
@@ -487,10 +487,6 @@ input:focus, textarea:focus {
 /** End of Form **/
 
 /** Footer **/
-
-.facebook {
-   color: white;
-}
 
 svg {
    fill: white;
