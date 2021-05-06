@@ -442,11 +442,11 @@ form {
    color: white;
    width: 616px;
    background: #4F6F19;
-   padding: 25px;
+   padding: 20px;
 }
 
 input {
-   width: 100%;
+   width: 25%;
 }
 
 textarea {
