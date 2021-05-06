@@ -323,7 +323,8 @@ img {
 }
 
 .image {
-margin: 0 0 0 0;
+height: px;
+width: ;
 }
 
 .food-insecurity-wrapper{
