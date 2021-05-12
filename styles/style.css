@@ -424,8 +424,13 @@ button a:visited {
    
 }
 
-.map {
+.search {
    padding: 30px;
+}
+
+.map {
+   max-height: 800px;
+   max-width: 800px;
 }
 
 /**End of food-banks**/
